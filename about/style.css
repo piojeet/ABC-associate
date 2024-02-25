@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --font-popins: "Poppins", sans-serif;
+    --font-Libre-Caslon-Text: "Libre Caslon Text", serif;
+    --white-color: #ffffff;
+    --text-color: #555555;
+}
+
+/* HERO SECTION START */
+#hero__section {
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+#hero__section h1 {
+    color: #F0F0F0;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 95.9% /* 86.31px */;
+    letter-spacing: 3px;
+   
+}
+
+#hero__section p {
+    font-family: var(--font-popins) !important;
+    font-size: 16px;
+}
+
+#hero__section .hero__section-container {
+    max-width: 700px;
+    width: 100%;
+}
+
+#hero__section .hero__section-container .hero__section-show__line {
+    background: #F0F0F0;
+}
+
+#hero__section .hero__section-container .hero__section-show__line::after {
+    background: none;
+}
+
+#hero__section .hero__section-container .hero__section-show__line::before {
+    background: none;
+}
+/* HERO SECTION ENDS */
+
+/* LEADER SECTION START */
+#leader__section .leader__section-right {
+    min-height: unset;
+    gap: 2rem;
+}
+
+
+/* LEADER SECTION ENDS */
+
+/* EXPERTICE SECTION START */
+#expertice__section {
+    padding-top: 0;
+}
+/* EXPERTICE SECTION ENDS */
+
+
+
+@media screen and (max-width: 1025px) {
+    #hero__section h1 {
+        font-size: 70px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #hero__section h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    #hero__section h1 {
+        font-size: 40px;
+    }
+}
