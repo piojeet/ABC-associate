@@ -44,3 +44,15 @@ closeBtn.forEach(function (closeMenu) {
         });
     });
 });
+
+
+
+// window load to show the popup on load
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('popupContainer').style.display = 'flex';
+});
+
+// window load function to close the popup
+function closePopup() {
+    document.getElementById('popupContainer').style.display = 'none';
+}
